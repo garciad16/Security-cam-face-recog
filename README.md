@@ -3,11 +3,13 @@
 Home Security Camera with Facial Recognition and Dropbox
 
 To run the program in cmd line:
+
 	-> python3 Face_Trainer.py
 	-> python3 pi_surveillance.py --conf conf.json
 
 
 Implementation of the program:
+
 	-> Video camera appears via the Raspberry Pi Camera Module
 		-> Camera displays the status of the room (initialized as 'Empty')
 		-> Displays the current time and date 
@@ -21,6 +23,7 @@ Implementation of the program:
 
 
 Problems with the program
+
 	-> Face recognition is not accurate
 		-> Can sometimes mistake me as Daenerys 
 		-> Can also mistake me as anyone depending on the lighting (dark room vs light room)
