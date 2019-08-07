@@ -6,10 +6,13 @@ To run the program in cmd line:
 	-> python3 Face_Trainer.py
 	-> python3 pi_surveillance.py --conf conf.json
 
+
 Implementation of the program:
 -> Video camera appears via the Raspberry Pi Camera Module
+
 	-> Camera displays the status of the room (initialized as 'Empty')
 	-> Displays the current time and date 
+
 -> Green rectangle appears (Bounding box) in which it recognizes an object in motion
 	-> Changes the display status from 'Empty' to 'Movement Detected'
 	-> When confidence level is less than 150, name display is "Unknown"
