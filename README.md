@@ -27,3 +27,7 @@ Problems with the program
 	-> Face recognition is not accurate
 		-> Can sometimes mistake me as Daenerys 
 		-> Can also mistake me as anyone depending on the lighting (dark room vs light room)
+
+Credits
+
+	-> Adrian at PyimageSearch
